@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en-US" class="has-lab-nav-bottom lab-theme-light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>prediction results</title>
+  <link rel="stylesheet" href="../static/css/labs.css">
+  <link rel="stylesheet" href="../static/css/masonry.css">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body   class="labs-template-default single single-labs postid-2409 logged-in admin-bar no-customize-support">
+
+
+<!-- Modal -->
+<div style="margin-top:200px;" class="container">
+    <div class="row">
+      <div   tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div  role="document">
+          <div >
+          
+            <div >
+             <div class="row">
+                <div class="col-1"></div>
+                <div class="col-5">
+                  <img  id="mainLogo" src="{{url_for('static', filename=fileName)}}" width='100%'>
+                </div>
+                <div class="col-5">
+                  <img   src="{{url_for('static', filename=graph)}}" width='100%'>
+                </div>
+              </div>
+            </div>
+            <div >
+              <div class="row">
+                <div ></div>
+                  <div >
+                    <div style="display:inline-flex;text-align: center;padding-left: 350px;" class="row align-items-center">
+                      <a href="{{url_for('static', filename=fileName)}}">
+                        <button type="button" class="btn text-white btn-primary" style="background-color: red; border-color:red;margin: 50px;">Download Colorized</button>
+                      </a>
+                      <button type="button" class="btn text-white btn-primary" style="background-color: red; border-color:red;margin: 50px;">Share</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+  
