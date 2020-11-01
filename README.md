@@ -1,7 +1,7 @@
 
 **this project is largely dependent on richzhang paper and its pre-trained model**
 
-this project uses deep learning to bring old tunisian images back to life. Making use of an already pretrained model I ceated a flask app that allows users to colorize their own black and white photos as well as explore our gallery.
+this project uses deep learning to bring old tunisian images back to life. Making use of an already pretrained model I ceated a flask app that allows users to colorize their own black and white photos as well as explore our gallery.Then I managed to deploy this project on HEROKU ( link: imgcol.herokuapp.com )
 one of the challenges that I went  through during this project is dealing with output images from the model and then using them in the front this  issue is caused by image caching in the browser.
 
 used links:
