@@ -1,7 +1,12 @@
-this project uses deep learning to bring old tunisian images back to life 
-this project is largely dependent on richzhang paper 
 
-used links: https://www.pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/
+**this project is largely dependent on richzhang paper and its pre-trained model**
+
+this project uses deep learning to bring old tunisian images back to life. Making use of an already pretrained model I ceated a flask app that allows users to colorize their own black and white photos as well as explore our gallery.
+one of the challenges that I went  through during this project is dealing with output images from the model and then using them in the front this  issue is caused by image caching in the browser.
+
+used links:
+  *Black and white image colorization with OpenCV and Deep Learning: This article was very useful to inderstand the research paper  and to make use of the model loading it with OPENCV
+https://www.pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/
 
 @inproceedings{zhang2016colorful,
   title={Colorful Image Colorization},
