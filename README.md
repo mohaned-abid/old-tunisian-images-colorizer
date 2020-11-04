@@ -9,6 +9,8 @@ this project uses deep learning to bring old tunisian images back to life. Makin
 
 -Also since heroku is a saas I had to use custom buildpacks in order to add necessary dependcies to heroku's OS in order for OPENCV to work.
 
+HOSTED PROJECT LINK: http://imgcol.herokuapp.com/
+
 used links:
 
   *Black and white image colorization with OpenCV and Deep Learning: 
